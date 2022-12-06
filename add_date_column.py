@@ -1,13 +1,11 @@
 # Robert Jones
 # 7.12.22
 # Add date column for each file. 
-
 import datetime 
 import pandas as pd
 import os
 
 ### Quick script to add date_column to .csv files with a date in the name of the file ### 
-
 
 # assign directory
 os.chdir('C:\\Users\\Robert.Jones\\Documents\\LiHEAP\\customer_data')
