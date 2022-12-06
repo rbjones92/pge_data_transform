@@ -109,11 +109,8 @@ class Outreach:
     def write(self):
         # Write file to .csv
         global df
-<<<<<<< HEAD
         df.to_csv('C:/Users/Robert.Jones/OneDrive - Central Coast Energy Services, Inc/Documents/LiHEAP/transformed_data/propensity_transformed_10.14.22.csv',index=True, index_label="index")
-=======
         df.to_csv('C:/Users/Robert.Jones/OneDrive - Central Coast Energy Services, Inc/Documents/LiHEAP/transformed_data/propensity_transformed.csv',index=True, index_label="index")
->>>>>>> d11e54fc2eac936f243d84641d43ad71610c674f
         
 
 
